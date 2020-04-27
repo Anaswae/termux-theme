@@ -1,0 +1,32 @@
+ZSH_THEME="agnoster"
+
+export ZSH=$HOME/.oh-my-zsh
+
+# -------------- OHMYZSH BY IQBALMH18 -------------- #
+# For support me subscribe youtube channel : SAYDOG  #
+# -------------------------------------------------- #
+
+# CASE_SENSITIVE="true"
+# HYPHEN_INSENSITIVE="true"
+# DISABLE_AUTO_UPDATE="true"
+# DISABLE_UPDATE_PROMPT="true"
+# export UPDATE_ZSH_DAYS=13
+# DISABLE_MAGIC_FUNCTIONS=true
+# DISABLE_LS_COLORS="true"
+# DISABLE_AUTO_TITLE="true"
+# ENABLE_CORRECTION="true"
+# COMPLETION_WAITING_DOTS="true"
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+plugins=(git zsh-autosuggestions)
+source $ZSH/oh-my-zsh.sh
+
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias chcolor='/data/data/com.termux/files/home/.termux/colors.sh'
+alias chfont='/data/data/com.termux/files/home/.termux/fonts.sh'
+source /data/data/com.termux/files/home/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_PATTERNS=('rm -rf *' 'fg=white,bold,bg=red')

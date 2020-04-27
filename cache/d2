@@ -1,0 +1,7 @@
+\x1b[00m"""
+
+def show():
+	os.system('clear')
+	slowprint(logo)
+
+show()
